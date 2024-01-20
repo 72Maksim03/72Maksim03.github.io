@@ -1,0 +1,119 @@
+=linksStyle
+    &_img
+            margin-right: 2%
+            width: 5%
+            margin-top: 1%
+    &_text
+        a
+            text-decoration: none
+            color: #fff
+            font-size: 110%
+            &:hover
+                color: #fc9803
+                transition: 0.5s all
+
+=sectionsStyle
+    margin-top: 2vh
+    margin-left: 10%
+    width: 80%
+    min-height: 1vh
+    &_header
+        color: #fff
+        margin-bottom: 2vh
+        font-size: 150%
+    &_text
+        color: #fff
+        font-size: 105%
+
+=sectionsStyleBlack
+    margin-top: 2vh
+    margin-left: 4%
+    width: 80%
+    min-height: 1vh
+    &_header
+        color: #000
+        margin-bottom: 2vh
+        font-size: 150%
+    &_text
+        color: #000
+        font-size: 105%
+
+.right
+    background-color: #393c3f
+    min-height: 120vh
+    margin-bottom: 0
+    .photo
+        position: relative
+        left: 50%
+        top: 5vh
+        max-width: 75%
+        max-height: 40vh
+        transform: translateX(-50%)
+
+.contacts
+    margin-top: 7vh
+    margin-left: 10%
+    min-height: 1vh
+    &_address
+        display: flex
+        align-items: center
+        +linksStyle
+    &_phone
+        display: flex
+        display: flex
+        align-items: center
+        +linksStyle
+    &_mail
+        display: flex
+        display: flex
+        align-items: center
+        +linksStyle
+
+.divider
+    margin: 3vh auto 0 auto
+    width: 80%
+    height: 2px
+    background-color: #fff
+
+.summary
+    +sectionsStyle
+    
+.skills
+    +sectionsStyle
+
+.left
+    h1
+        margin: 3vh 0 0 4%
+
+.divider_black
+    margin: 3vh auto 0 auto
+    width: 91.5%
+    height: 2px
+    background-color: #000
+
+.education
+    +sectionsStyleBlack
+
+.languages
+    +sectionsStyleBlack
+    &_block
+        display: flex
+        justify-content: space-between
+        &_level
+            width: 45%
+            &_header
+                display: flex
+                justify-content: space-between
+                margin-top: 1vh
+            &_blocks
+                display: flex
+                justify-content: space-between
+                margin-top: 1vh
+                &_dark
+                    height: 10px
+                    width: 15%
+                    background-color: #34393e
+                &_white
+                    height: 10px
+                    width: 15%
+                    background-color: #d5d5d5
